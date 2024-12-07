@@ -1,3 +1,4 @@
+/* Wygląd dla komputerów */
 body {
     background-color: rgb(27, 27, 27);
     margin: 0;
@@ -19,7 +20,7 @@ body {
 #profile_photo {
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 #profile_photo img {
@@ -137,4 +138,72 @@ body {
     font-style: normal;
     font-size: 29px;
     border-bottom: rgb(63, 133, 63) dotted;
+}
+
+/* Wygląd dla urządzeń mobilnych */
+@media (max-width: 768px) {
+    #topbar {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #profile_photo {
+        margin-top: 70px;
+    }
+
+    #profile_photo img {
+        width: 250px;
+        height: 250px;
+        border-width: 10px;
+    }
+
+    #nick_names {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    #description {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .title_description {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .description_paragraf {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #links {
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
+
+    .title_links {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .links_paragraf {
+        font-size: 25px;
+    }
+
+    #spotify_playlist {
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
+
+    .spotify_playlist_title {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
