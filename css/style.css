@@ -12,20 +12,22 @@ body {
     font-family: "Zain", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 35px;
     padding-top: 35px;
     padding-bottom: 15px;
+}
+
+#topbar h1 {
+    font-size: 200%;
 }
 
 #profile_photo {
     width: 100%;
     text-align: center;
-    margin-top: 30px;
 }
 
 #profile_photo img {
-    width: 550px;
-    height: 550px;
+    width: 20%;
+    height: auto;
     border-radius: 50%;
     border-style: solid;
     border-color: rgba(86, 105, 83, 0.2);
@@ -34,13 +36,13 @@ body {
 
 #nick_names {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 2%;
     text-align: center;
     color: whitesmoke;
     font-family: "Zain", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 180%;
 }
 
 #description {
@@ -56,27 +58,31 @@ body {
 
 .title_description {
     background-color: rgba(38, 85, 85, 0.281);
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     color: rgb(93, 206, 206);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 29px;
     border-bottom: rgb(63, 133, 133) dotted;
 }
 
+.title_description h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin: 0;
+}
+
 .description_paragraf {
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 25px;
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
     color: rgb(236, 236, 236);
     font-family: "Zain", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 24px;
+    font-size: 130%;
 }
 
 #links {
@@ -116,69 +122,52 @@ body {
     text-align: center;
 }
 
-#spotify_playlist {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-    margin-bottom: 150px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: rgb(63, 133, 63);
-}
-
-.spotify_playlist_title {
-    background-color: rgba(43, 85, 38, 0.281);
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: rgb(116, 206, 93);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 29px;
-    border-bottom: rgb(63, 133, 63) dotted;
-}
-
 /* Wygląd dla urządzeń mobilnych */
 @media (max-width: 768px) {
     #topbar {
-        font-size: 25px;
-        padding-top: 20px;
-        padding-bottom: 10px;
+        padding-top: 6%;
+        padding-bottom: 1%;
+    }
+
+    #topbar h1 {
+        font-size: 150%;
     }
 
     #profile_photo {
-        margin-top: 70px;
+        margin-top: 4%;
     }
 
     #profile_photo img {
-        width: 250px;
-        height: 250px;
+        width: 50%;
+        height: auto;
         border-width: 10px;
     }
 
     #nick_names {
-        font-size: 30px;
-        margin-top: 30px;
+        font-size: 110%;
+        margin-top: 4%;
     }
 
     #description {
-        margin-top: 40px;
-        margin-bottom: 60px;
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
 
     .title_description {
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 7%;
+        padding-left: 3.5%;
+        padding-bottom: 6%;
+    }
+
+    .title_description h2 {
+        font-size: 120%;
     }
 
     .description_paragraf {
-        font-size: 16px;
-        padding-top: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 105%;
+        padding-top: 6%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
     }
 
     #links {
@@ -194,16 +183,5 @@ body {
 
     .links_paragraf {
         font-size: 25px;
-    }
-
-    #spotify_playlist {
-        margin-top: 60px;
-        margin-bottom: 75px;
-    }
-
-    .spotify_playlist_title {
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 }
