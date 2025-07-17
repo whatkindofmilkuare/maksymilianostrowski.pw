@@ -85,41 +85,106 @@ body {
     font-size: 130%;
 }
 
-#links {
+#web_projects {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
-    margin-bottom: 150px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(63, 133, 63);
+}
+
+.title_web_projects {
+    padding-left: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: rgba(43, 85, 38, 0.281);
+    color: rgb(116, 206, 93);
+    border-bottom: rgb(63, 133, 63) dotted;
+}
+
+.title_web_projects h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin: 0;
+}
+
+.web_projects_paragraf  {
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    color: rgb(236, 236, 236);
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 130%;
+}
+
+.web_projects_paragraf a {
+    color: rgb(93, 206, 206);
+    text-decoration: none;
+}
+
+#contact {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(107, 63, 133);
 }
 
-.title_links {
+.title_contact {
+    padding-left: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     background-color: rgba(72, 38, 85, 0.281);
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
     color: rgb(146, 93, 206);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 29px;
     border-bottom: rgb(107, 63, 133) dotted;
 }
 
-.links_paragraf  {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 25px;
+.title_contact h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin: 0;
+}
+
+.contact_paragraf  {
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
     color: rgb(236, 236, 236);
     font-family: "Zain", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 40px;
+    font-size: 130%;
+}
+
+.contact_paragraf a {
+    color: rgb(93, 206, 206);
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
     text-align: center;
+    color: rgb(189, 189, 189);
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(27, 27, 27);
 }
 
 /* Wygląd dla urządzeń mobilnych */
@@ -170,18 +235,52 @@ body {
         padding-right: 3.5%;
     }
 
-    #links {
-        margin-top: 60px;
-        margin-bottom: 75px;
+    #web_projects {
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
 
-    .title_links {
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+    .title_web_projects {
+        padding-top: 7%;
+        padding-left: 3.5%;
+        padding-bottom: 6%;
     }
 
-    .links_paragraf {
-        font-size: 25px;
+    .title_web_projects h2 {
+        font-size: 120%;
+    }
+
+    .web_projects_paragraf {
+        font-size: 105%;
+        padding-top: 6%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+
+    #contact {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .title_contact {
+        padding-top: 7%;
+        padding-left: 3.5%;
+        padding-bottom: 6%;
+    }
+
+    .title_contact h2 {
+        font-size: 120%;
+    }
+
+    .contact_paragraf {
+        font-size: 105%;
+        padding-top: 6%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
