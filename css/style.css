@@ -125,9 +125,24 @@ body {
     font-size: 130%;
 }
 
-.web_projects_paragraf a {
+.web_projects_paragraf_img {
+    width: 100%;
+    text-align: center;
+}
+
+.web_projects_open_graph_banners {
+    width: 97%;
+    height: auto;
+}
+
+.web_projects_link {
     color: rgb(93, 206, 206);
     text-decoration: none;
+}
+
+#web_projects_paragraf_images  {
+    width: 100%;
+    display: flex;
 }
 
 #contact {
@@ -255,6 +270,24 @@ footer {
         padding-top: 6%;
         padding-left: 3.5%;
         padding-right: 3.5%;
+    }
+
+    .web_projects_paragraf_img {
+        text-align: left;
+    }
+
+    .web_projects_open_graph_banners {
+        width: 100%;
+    }
+
+    #web_projects_paragraf_images  {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .web_projects_paragraf_img {
+        padding-bottom: 5%;
     }
 
     #contact {
