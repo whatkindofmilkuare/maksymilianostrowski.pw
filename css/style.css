@@ -130,6 +130,13 @@ body {
     text-align: center;
 }
 
+.web_projects_paragraf_img p {
+    width: 97%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .web_projects_open_graph_banners {
     width: 97%;
     height: auto;
