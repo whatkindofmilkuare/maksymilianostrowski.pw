@@ -121,6 +121,10 @@ body {
     display: none;
 }
 
+.web_projects_link_icon_mobile {
+    display: none
+}
+
 .web_projects_paragraf  {
     padding-top: 1.5%;
     padding-left: 1%;
@@ -224,12 +228,15 @@ footer {
 /* Wygląd dla urządzeń mobilnych */
 @media (max-width: 768px) {
     #topbar {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 6%;
         padding-bottom: 1%;
     }
 
     #topbar h1 {
-        font-size: 150%;
+        font-size: 145%;
     }
 
     #profile_photo {
@@ -259,7 +266,7 @@ footer {
     }
 
     .title_description h2 {
-        font-size: 135%;
+        font-size: 130%;
     }
 
     .title_description_icon_desktop {
@@ -289,7 +296,7 @@ footer {
     }
 
     .title_web_projects h2 {
-        font-size: 135%;
+        font-size: 130%;
     }
 
     .title_web_projects_icon_desktop {
@@ -297,6 +304,14 @@ footer {
     }
 
     .title_web_projects_icon_mobile {
+        display: inline;
+    }
+
+    .web_projects_link_icon_desktop {
+        display: none;
+    }
+
+    .web_projects_link_icon_mobile {
         display: inline;
     }
 
@@ -309,8 +324,25 @@ footer {
 
     .web_projects_paragraf_img {
         text-align: left;
+        padding-bottom: 5%;
     }
 
+    .web_projects_paragraf_img h3 {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    .web_projects_paragraf_img p {
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .web_projects_paragraf_img img {
+        border-radius: 10px;
+    }
+ 
     .web_projects_open_graph_banners {
         width: 100%;
     }
@@ -319,10 +351,6 @@ footer {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .web_projects_paragraf_img {
-        padding-bottom: 5%;
     }
 
     #contact {
@@ -337,7 +365,7 @@ footer {
     }
 
     .title_contact h2 {
-        font-size: 135%;
+        font-size: 130%;
     }
 
     .title_contact_icon_desktop {
