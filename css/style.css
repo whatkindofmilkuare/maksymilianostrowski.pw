@@ -1,6 +1,6 @@
 /* Wygląd dla komputerów */
 body {
-    background-color: rgb(27, 27, 27);
+    background-color: #16181B;
     margin: 0;
     width: 100%;
 }
@@ -31,7 +31,7 @@ body {
     border-radius: 50%;
     border-style: solid;
     border-color: rgba(86, 105, 83, 0.2);
-    border-width: 15px;
+    border-width: 8px;
 }
 
 #nick_names {
@@ -73,6 +73,10 @@ body {
     margin: 0;
 }
 
+.title_description_icon_mobile {
+    display: none;
+}
+
 .description_paragraf {
     padding-top: 1.5%;
     padding-left: 1%;
@@ -111,6 +115,10 @@ body {
     font-style: normal;
     font-size: 180%;
     margin: 0;
+}
+
+.title_web_projects_icon_mobile {
+    display: none;
 }
 
 .web_projects_paragraf  {
@@ -180,6 +188,10 @@ body {
     margin: 0;
 }
 
+.title_contact_icon_mobile {
+    display: none;
+}
+
 .contact_paragraf  {
     padding-top: 1.5%;
     padding-left: 1%;
@@ -206,7 +218,7 @@ footer {
     font-style: normal;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(27, 27, 27);
+    background-color: #16181B;
 }
 
 /* Wygląd dla urządzeń mobilnych */
@@ -227,7 +239,7 @@ footer {
     #profile_photo img {
         width: 50%;
         height: auto;
-        border-width: 10px;
+        border-width: 6px;
     }
 
     #nick_names {
@@ -241,13 +253,21 @@ footer {
     }
 
     .title_description {
-        padding-top: 7%;
+        padding-top: 5%;
         padding-left: 3.5%;
-        padding-bottom: 6%;
+        padding-bottom: 5%;
     }
 
     .title_description h2 {
-        font-size: 120%;
+        font-size: 135%;
+    }
+
+    .title_description_icon_desktop {
+        display: none;
+    }
+
+    .title_description_icon_mobile {
+        display: inline;
     }
 
     .description_paragraf {
@@ -263,13 +283,21 @@ footer {
     }
 
     .title_web_projects {
-        padding-top: 7%;
+        padding-top: 5%;
         padding-left: 3.5%;
-        padding-bottom: 6%;
+        padding-bottom: 5%;
     }
 
     .title_web_projects h2 {
-        font-size: 120%;
+        font-size: 135%;
+    }
+
+    .title_web_projects_icon_desktop {
+        display: none;
+    }
+
+    .title_web_projects_icon_mobile {
+        display: inline;
     }
 
     .web_projects_paragraf {
@@ -309,7 +337,15 @@ footer {
     }
 
     .title_contact h2 {
-        font-size: 120%;
+        font-size: 135%;
+    }
+
+    .title_contact_icon_desktop {
+        display: none;
+    }
+
+    .title_contact_icon_mobile {
+        display: inline;
     }
 
     .contact_paragraf {
