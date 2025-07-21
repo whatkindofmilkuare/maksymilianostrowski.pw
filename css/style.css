@@ -62,6 +62,8 @@ body {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     color: rgb(93, 206, 206);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     border-bottom: rgb(63, 133, 133) dotted;
 }
 
@@ -106,6 +108,8 @@ body {
     padding-bottom: 1.5%;
     background-color: rgba(43, 85, 38, 0.281);
     color: rgb(116, 206, 93);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     border-bottom: rgb(63, 133, 63) dotted;
 }
 
@@ -162,6 +166,73 @@ body {
 #web_projects_paragraf_images  {
     width: 100%;
     display: flex;
+}
+
+#lab_projects {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #5e79c4;
+}
+
+.title_lab_projects {
+    padding-left: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: #413a6942;
+    color: #839fec;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: #5e79c4 dotted;
+}
+
+.title_lab_projects h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin: 0;
+}
+
+.title_lab_projects_icon_mobile {
+    display: none;
+}
+
+.lab_projects_link_icon_mobile {
+    display: none
+}
+
+.lab_projects_arcticle  {
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    color: rgb(236, 236, 236);
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 130%;
+}
+
+.lab_projects_item_images {
+    width: 100%;
+    display: flex;
+}
+
+.lab_projects_item_images img {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+.lab_project_item a {
+    color: rgb(93, 206, 206);
+    text-decoration: none;
 }
 
 #contact {
@@ -351,6 +422,48 @@ footer {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #lab_projects {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .title_lab_projects {
+        padding-top: 5%;
+        padding-left: 3.5%;
+        padding-bottom: 5%;
+    }
+
+    .title_lab_projects h2 {
+        font-size: 130%;
+    }
+
+    .title_lab_projects_icon_desktop {
+        display: none;
+    }
+
+    .title_lab_projects_icon_mobile {
+        display: inline;
+    }
+
+    .lab_projects_arcticle {
+        font-size: 105%;
+        padding-top: 6%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+
+    .lab_projects_item_images {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lab_projects_item_images img {
+        width: 45%;
+        height: auto;
+        padding: 1.5%;
     }
 
     #contact {
