@@ -5,19 +5,51 @@ body {
     width: 100%;
 }
 
-#topbar {
+h1 {
+    font-size: 200%;
     color: rgb(189, 189, 189);
-    text-align: center;
-    width: 100%;
     font-family: "Zain", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-top: 35px;
-    padding-bottom: 15px;
+    font-weight: 600;
 }
 
-#topbar h1 {
-    font-size: 200%;
+h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin: 0;
+}
+
+a {
+    color: rgb(93, 206, 206);
+    text-decoration: none;
+}
+
+.title_icon_mobile {
+    display: none;
+}
+
+.link_icon_mobile {
+    display: none
+}
+
+.paragraf  {
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    color: rgb(236, 236, 236);
+    font-family: "Zain", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 130%;
+}
+
+#topbar {
+    text-align: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 15px;
 }
 
 #profile_photo {
@@ -67,30 +99,6 @@ body {
     border-bottom: rgb(63, 133, 133) dotted;
 }
 
-.title_description h2 {
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 180%;
-    margin: 0;
-}
-
-.title_description_icon_mobile {
-    display: none;
-}
-
-.description_paragraf {
-    padding-top: 1.5%;
-    padding-left: 1%;
-    padding-right: 1.5%;
-    padding-bottom: 1.5%;
-    color: rgb(236, 236, 236);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 130%;
-}
-
 #web_projects {
     width: 90%;
     margin-left: auto;
@@ -113,34 +121,6 @@ body {
     border-bottom: rgb(63, 133, 63) dotted;
 }
 
-.title_web_projects h2 {
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 180%;
-    margin: 0;
-}
-
-.title_web_projects_icon_mobile {
-    display: none;
-}
-
-.web_projects_link_icon_mobile {
-    display: none
-}
-
-.web_projects_paragraf  {
-    padding-top: 1.5%;
-    padding-left: 1%;
-    padding-right: 1.5%;
-    padding-bottom: 1.5%;
-    color: rgb(236, 236, 236);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 130%;
-}
-
 .web_projects_paragraf_img {
     width: 100%;
     text-align: center;
@@ -156,11 +136,6 @@ body {
 .web_projects_open_graph_banners {
     width: 97%;
     height: auto;
-}
-
-.web_projects_link {
-    color: rgb(93, 206, 206);
-    text-decoration: none;
 }
 
 #web_projects_paragraf_images  {
@@ -190,34 +165,6 @@ body {
     border-bottom: #5e79c4 dotted;
 }
 
-.title_lab_projects h2 {
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 180%;
-    margin: 0;
-}
-
-.title_lab_projects_icon_mobile {
-    display: none;
-}
-
-.lab_projects_link_icon_mobile {
-    display: none
-}
-
-.lab_projects_arcticle  {
-    padding-top: 1.5%;
-    padding-left: 1%;
-    padding-right: 1.5%;
-    padding-bottom: 1.5%;
-    color: rgb(236, 236, 236);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 130%;
-}
-
 .lab_projects_item_images {
     width: 100%;
     display: flex;
@@ -228,11 +175,6 @@ body {
     height: auto;
     border-radius: 10px;
     margin-right: 1%;
-}
-
-.lab_project_item a {
-    color: rgb(93, 206, 206);
-    text-decoration: none;
 }
 
 #contact {
@@ -255,33 +197,8 @@ body {
     border-bottom: rgb(107, 63, 133) dotted;
 }
 
-.title_contact h2 {
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 180%;
-    margin: 0;
-}
-
 .title_contact_icon_mobile {
     display: none;
-}
-
-.contact_paragraf  {
-    padding-top: 1.5%;
-    padding-left: 1%;
-    padding-right: 1.5%;
-    padding-bottom: 1.5%;
-    color: rgb(236, 236, 236);
-    font-family: "Zain", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 130%;
-}
-
-.contact_paragraf a {
-    color: rgb(93, 206, 206);
-    text-decoration: none;
 }
 
 footer {
@@ -306,8 +223,17 @@ footer {
         padding-bottom: 1%;
     }
 
-    #topbar h1 {
+    h1 {
         font-size: 145%;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+
+    h3 {
+        margin-top: 2%;
+        margin-bottom: 4%;
     }
 
     #profile_photo {
@@ -336,19 +262,15 @@ footer {
         padding-bottom: 5%;
     }
 
-    .title_description h2 {
-        font-size: 130%;
-    }
-
-    .title_description_icon_desktop {
+    .title_icon_desktop {
         display: none;
     }
 
-    .title_description_icon_mobile {
+    .title_icon_mobile {
         display: inline;
     }
 
-    .description_paragraf {
+    .paragraf {
         font-size: 105%;
         padding-top: 6%;
         padding-left: 3.5%;
@@ -366,41 +288,17 @@ footer {
         padding-bottom: 5%;
     }
 
-    .title_web_projects h2 {
-        font-size: 130%;
-    }
-
-    .title_web_projects_icon_desktop {
+    .link_icon_desktop{
         display: none;
     }
 
-    .title_web_projects_icon_mobile {
+    .link_icon_mobile {
         display: inline;
-    }
-
-    .web_projects_link_icon_desktop {
-        display: none;
-    }
-
-    .web_projects_link_icon_mobile {
-        display: inline;
-    }
-
-    .web_projects_paragraf {
-        font-size: 105%;
-        padding-top: 6%;
-        padding-left: 3.5%;
-        padding-right: 3.5%;
     }
 
     .web_projects_paragraf_img {
         text-align: left;
         padding-bottom: 5%;
-    }
-
-    .web_projects_paragraf_img h3 {
-        margin-top: 2%;
-        margin-bottom: 4%;
     }
 
     .web_projects_paragraf_img p {
@@ -435,25 +333,6 @@ footer {
         padding-bottom: 5%;
     }
 
-    .title_lab_projects h2 {
-        font-size: 130%;
-    }
-
-    .title_lab_projects_icon_desktop {
-        display: none;
-    }
-
-    .title_lab_projects_icon_mobile {
-        display: inline;
-    }
-
-    .lab_projects_arcticle {
-        font-size: 105%;
-        padding-top: 6%;
-        padding-left: 3.5%;
-        padding-right: 3.5%;
-    }
-
     .lab_projects_item_images {
         width: 100%;
         display: flex;
@@ -477,27 +356,92 @@ footer {
         padding-bottom: 6%;
     }
 
-    .title_contact h2 {
-        font-size: 130%;
-    }
-
-    .title_contact_icon_desktop {
-        display: none;
-    }
-
-    .title_contact_icon_mobile {
-        display: inline;
-    }
-
-    .contact_paragraf {
-        font-size: 105%;
-        padding-top: 6%;
-        padding-left: 3.5%;
-        padding-right: 3.5%;
-    }
-
     footer {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1d20;
+    border-top: 3px solid rgb(63, 133, 133);
+    padding: 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    display: none; /* Domyślnie ukryty, pokazywany przez JS */
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.cookie-banner p {
+    margin: 0;
+    color: rgb(236, 236, 236);
+    font-family: "Zain", sans-serif;
+    font-size: 110%;
+    flex-grow: 1;
+}
+
+.cookie-banner a {
+    color: rgb(93, 206, 206);
+    text-decoration: underline;
+}
+
+.cookie-banner-buttons {
+    display: flex;
+    gap: 15px;
+    margin-left: 25px;
+}
+
+.cookie-banner button {
+    font-family: "Zain", sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid rgb(63, 133, 133);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#cookie-accept {
+    background-color: rgb(63, 133, 133);
+    color: white;
+}
+
+#cookie-accept:hover {
+    background-color: rgb(75, 155, 155);
+}
+
+#cookie-reject {
+    background-color: transparent;
+    color: rgb(189, 189, 189);
+}
+
+#cookie-reject:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dostosowanie dla urządzeń mobilnych */
+@media (max-width: 768px) {
+    .cookie-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .cookie-banner p {
+        font-size: 100%;
+        margin-bottom: 15px;
+    }
+
+    .cookie-banner-buttons {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
     }
 }
